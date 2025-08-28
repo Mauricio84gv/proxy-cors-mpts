@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 });
 
 // Enlace a tu Google Apps Script
-const TARGET_URL = "https://script.google.com/macros/s/AKfycbzWInYPLtjrKf8Jfaey09DODsHfmpKnfG6khN5RKDoP76mSdF40j5okYSid-JIamS5v/exec";
+const TARGET_URL = "https://script.google.com/macros/s/AKfycbxY2p1KiB2APhiF5EhIp2OhBbEVYV0icdJKLC2cFBb-tM0EAHGj9meSJ_AvPbt7tIm8XA/exec";
 
 // Ruta que reenvía el formulario
 app.post("/proxy", async (req, res) => {
